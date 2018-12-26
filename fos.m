@@ -1,4 +1,4 @@
-function [ a, p ] = fos( x, y, K, L, order )
+function [ a, p, Q ] = fos( x, y, K, L, order )
 %FOS Summary of this function goes here
 %   Detailed explanation goes here
 N = length(x);
