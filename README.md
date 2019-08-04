@@ -1,4 +1,7 @@
+[//]: # (Image References)
+
 [fos_model]: ./docs/fos_model.png "FOS Model"
+
 # Fast Orthogonal Search (FOS) Algorithm
 Implementation of Fast Orthogonal Search (FOS) Algorithm as described in this paper:
 ```
@@ -24,7 +27,7 @@ Implementation of Fast Orthogonal Search (FOS) Algorithm as described in this pa
 
 ## What is FOS?
 
-![FOS Model][./docs/fos_model]
+![FOS Model][fos_model]
 
 FOS tries to provide a mathematical model to map the input signal of a system to its output signal, using a time-series polynomail equation. 
 For a system that produces, at epoch `n`, output `y[n]` for input `x[n]`, FOS tries to model the output as a summation of polynomial terms:
