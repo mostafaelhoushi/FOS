@@ -29,3 +29,17 @@ toc
 y1 = evalfunct( x(1:N), y(1:N), p, a );
 e = y1 - y(1:N);
 MSEpercent = mean(e(N0+1:N).^2)/var(y(N0+1:N)) *100;
+
+%% Print Results
+print('FOS generated model: ')
+printfunct(p, a)
+print('')
+print('MSE%= ' num2str(MSEpercent))
+
+%% Plot Results
+figure;
+plot(y, 'b')
+hold on;
+plot(y1, 'r')
+legend('y', 'y1')
+xlabel('n'); ylabel('y[n]');

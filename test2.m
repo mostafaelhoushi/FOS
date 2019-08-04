@@ -51,5 +51,12 @@ MSEpercent1 = mean(e1(N0+1:N).^2)/var(y1(N0+1:N)) *100;
 e2 = y2est - y2;
 MSEpercent2 = mean(e2(N0+1:N).^2)/var(y2(N0+1:N)) *100;
 
+%% Print Results
+print('FOS generated model: ')
+printfunct(p, a)
+print('')
+print('MSE%= ' num2str(MSEpercent))
+
+%% Plot Results
 figure; plot(y1, 'b'); hold on; plot(y1est, 'r'); legend('y1', 'y1est'); xlabel('n'); ylabel('y[n]');
 figure; plot(y2, 'b'); hold on; plot(y2est, 'r'); legend('y2', 'y2est'); xlabel('n'); ylabel('y[n]');
