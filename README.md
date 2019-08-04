@@ -34,12 +34,13 @@ For a system that produces, at epoch <a href="https://www.codecogs.com/eqnedit.p
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=y_{1}[n]&space;=&space;\sum_{m=0}^{M}&space;a_{m}p_{m}[n]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?y_{1}[n]&space;=&space;\sum_{m=0}^{M}&space;a_{m}p_{m}[n]" title="y_{1}[n] = \sum_{m=0}^{M} a_{m}p_{m}[n]" /></a>
 
-where each polyomial term, 
-<a href="https://www.codecogs.com/eqnedit.php?latex=p_{m}[n]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?p_{m}[n]" title="p_{m}[n]" /></a> 
+where each polyomial term, <a href="https://www.codecogs.com/eqnedit.php?latex=p_{m}[n]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?p_{m}[n]" title="p_{m}[n]" /></a> 
 is a product of inputs and/or outputs, possibly at different epochs:
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=p_{m}[n]=\prod_{o=1}^{O}c_{o}[n]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?p_{m}[n]=\prod_{o=1}^{O}c_{o}[n]" title="p_{m}[n]=\prod_{o=1}^{O}c_{o}[n]" /></a>
 
 such that:
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=c_{o}[n]=\left\{\begin{matrix}&space;1&space;&&space;\\&space;x[n-l]&space;&&space;l=0,1,2,...,L&space;\\&space;y[n-k]&space;&&space;k=1,2,...,K&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/svg.latex?c_{o}[n]=\left\{\begin{matrix}&space;1&space;&&space;\\&space;x[n-l]&space;&&space;l=0,1,2,...,L&space;\\&space;y[n-k]&space;&&space;k=1,2,...,K&space;\end{matrix}\right." title="c_{o}[n]=\left\{\begin{matrix} 1 & \\ x[n-l] & l=0,1,2,...,L \\ y[n-k] & k=1,2,...,K \end{matrix}\right." /></a>
 
 
