@@ -56,6 +56,7 @@ If, <a href="https://www.codecogs.com/eqnedit.php?latex=L" target="_blank"><img 
 
 
 ## Getting Started
+We advise you to run tests `test1.m` and `test2.m` and go through their code to understand how to train and evaluate a model using FOS.
 
 ## Citing Author
 If you find this code useful in your work, please cite the following paper by the author of the code:
